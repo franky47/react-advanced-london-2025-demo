@@ -21,13 +21,6 @@ for (const { id, coverUrl, name, artist } of albums) {
     import.meta.dirname,
     `../../../apps/demo-next/public/img/albums/${id}.jpg`
   )
-  const rrv7Path = resolve(
-    import.meta.dirname,
-    `../../../apps/demo-react-router/public/img/albums/${id}.jpg`
-  )
-  await Promise.all([
-    fs.writeFile(nextJsPath, buffer),
-    fs.writeFile(rrv7Path, buffer),
-  ])
+  await Promise.all([fs.writeFile(nextJsPath, buffer)])
   console.info('✅📥🖼️  %s - %s by %s', id, name, artist)
 }

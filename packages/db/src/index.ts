@@ -5,7 +5,7 @@ import * as schema from './schema.ts'
 
 function resolveDatabasePath() {
   // Direct path when running migrations
-  if ('dirname' in import.meta) {
+  if (import.meta.dirname) {
     return resolve(import.meta.dirname, '../albums.db')
   }
   // node_modules path for dependent packages
