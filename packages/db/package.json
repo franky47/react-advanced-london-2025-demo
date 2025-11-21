@@ -17,17 +17,17 @@
   "dependencies": {
     "@spotify/web-api-ts-sdk": "1.2.0",
     "ai": "^5.0.60",
-    "better-sqlite3": "12.4.1",
-    "drizzle-orm": "0.44.6",
-    "ollama-ai-provider-v2": "1.4.1",
+    "better-sqlite3": "12.4.5",
+    "drizzle-orm": "0.44.7",
+    "ollama-ai-provider-v2": "1.5.5",
     "spotify-uri": "4.1.0",
     "zod": "^4.1.12"
   },
   "devDependencies": {
     "@types/better-sqlite3": "7.6.13",
-    "@types/node": "24.7.0",
+    "@types/node": "24.10.1",
     "@root/typescript-config": "workspace:*",
-    "drizzle-kit": "0.31.5",
+    "drizzle-kit": "0.31.7",
     "typescript": "5.9.3"
   },
   "exports": {
