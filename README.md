@@ -1,12 +1,8 @@
-# Next.js Conf 2025 Demo app
+# React Advanced London 2025 Demo app
 
-This is the demo app showcased in my Next.js Conf 2025 talk: "Type-Safe URL State in Next.js with nuqs".
+This is the demo app showcased in my React Advanced London 2025 talk: "Type-Safe URL State in Next.js with nuqs".
 
-Video recording of the talk is available on YouTube:
-
-[![Type-Safe URL State in Next.js with nuqs](https://img.youtube.com/vi/qpczQVJMG1Y/0.jpg)](https://www.youtube.com/watch?v=qpczQVJMG1Y)
-
-Slides & useful links (shown at the end): https://nuqs.dev/nextjs-conf-25
+Slides & useful links (shown at the end): https://nuqs.dev/react-advanced-london-25
 
 ## Installation
 
@@ -36,4 +32,4 @@ pnpm db:dl-images
 
 ## Final state
 
-The final state of the demo app can be found on the [`post-demo-state` branch](https://github.com/franky47/nextjs-conf-25-demo/tree/post-demo-state) of this repository.
+The final state of the demo app can be found on the [`post-demo-state` branch](https://github.com/franky47/react-advanced-london-25-demo/tree/post-demo-state) of this repository.

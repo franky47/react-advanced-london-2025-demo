@@ -13,7 +13,7 @@
   "zenMode.hideActivityBar": true,
   "zenMode.hideStatusBar": true,
   "zenMode.showTabs": "none",
-  "window.title": "${activeEditorShort}${separator}nuqs${separator}Next.js Conf 2025",
+  "window.title": "${activeEditorShort}${separator}nuqs${separator}React Advanced London 2025",
   // Biome configuration
   "biome.lsp.bin": "./node_modules/.bin/biome",
   "editor.formatOnSave": true,
