@@ -15,14 +15,6 @@ export function Favourites() {
         <li>
           <Link
             className="hover:underline"
-            href="/albums?query=beatles"
-          >
-            Search for "beatles"
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="hover:underline"
             href="/albums?query=metal"
           >
             Search for "metal"
